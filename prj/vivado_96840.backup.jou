@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar 15 16:20:43 2020
+# Process ID: 96840
+# Current directory: F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent89460 F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.xpr
+# Log file: F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/vivado.log
+# Journal file: F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk -hwspec F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf
+open_bd_design {F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.srcs/sources_1/bd/design_1/design_1.bd}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.runs/impl_1/top.sysdef F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf
+
+file copy -force F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.runs/impl_1/top.sysdef F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf
+
+launch_sdk -workspace F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk -hwspec F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf

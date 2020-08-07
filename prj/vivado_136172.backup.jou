@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Dec  7 19:22:17 2019
+# Process ID: 136172
+# Current directory: F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent147864 F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.xpr
+# Log file: F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/vivado.log
+# Journal file: F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.xpr
+update_compile_order -fileset sources_1
+file copy -force F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.runs/impl_1/top.sysdef F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf
+
+launch_sdk -workspace F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk -hwspec F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf

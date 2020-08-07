@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\fsbl\Debug\fsbl.elf
+	F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\top_hw_platform_0\top.bit
+	F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\hello\Debug\hello.elf
+}

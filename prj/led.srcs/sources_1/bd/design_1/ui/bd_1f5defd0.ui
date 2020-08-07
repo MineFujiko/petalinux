@@ -1,0 +1,33 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.679452",
+   "Default View_TopLeft":"-272,-450",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 3 -x 1130 -y -150 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 3 -x 1130 -y -130 -defaultsOSRD
+preplace port M00_AXI_0 -pg 1 -lvl 3 -x 1130 -y -330 -defaultsOSRD
+preplace port FCLK_CLK0_0 -pg 1 -lvl 3 -x 1130 -y -70 -defaultsOSRD
+preplace portBus GPIO_O_0 -pg 1 -lvl 3 -x 1130 -y -170 -defaultsOSRD
+preplace portBus aresetn -pg 1 -lvl 3 -x 1130 -y -210 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 490 -y -130 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 910 -y -330 -defaultsOSRD
+preplace inst rst_ps7_0_10M -pg 1 -lvl 2 -x 910 -y 180 -defaultsOSRD
+preplace netloc processing_system7_0_GPIO_O 1 1 2 N -200 1110
+preplace netloc rst_ps7_0_10M_interconnect_aresetn 1 1 2 720J -210 1100
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 20 710 -70 NJ
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 700 -40n
+preplace netloc S00_AXI_1 1 1 1 700 -390n
+preplace netloc processing_system7_0_DDR 1 1 2 NJ -180 1090
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 NJ -160 1080
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 N -330
+levelinfo -pg 1 0 490 910 1130
+pagesize -pg 1 -db -bbox -sgen 0 -450 1280 770
+"
+}
+{
+   "da_board_cnt":"2",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
+}

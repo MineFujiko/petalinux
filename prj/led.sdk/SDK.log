@@ -1,0 +1,72 @@
+00:23:34 INFO  : Registering command handlers for SDK TCF services
+00:23:35 INFO  : Launching XSCT server: xsct.bat -interactive F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\temp_xsdb_launch_script.tcl
+00:23:39 INFO  : XSCT server has started successfully.
+00:23:41 INFO  : Successfully done setting XSCT server connection channel  
+00:23:41 INFO  : Successfully done setting SDK workspace  
+00:23:41 INFO  : Processing command line option -hwspec F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf.
+00:24:49 INFO  : Invoking Bootgen: bootgen -image hello_world.bif -arch zynq -o F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\hello_world\bootimage\BOOT.bin
+00:24:49 INFO  : Creating new bif file F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\hello_world\bootimage\hello_world.bif
+00:24:52 INFO  : Bootgen command execution is done.
+19:23:41 INFO  : Launching XSCT server: xsct.bat -interactive F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\temp_xsdb_launch_script.tcl
+19:23:45 INFO  : XSCT server has started successfully.
+19:23:45 INFO  : Successfully done setting XSCT server connection channel  
+19:23:46 INFO  : Successfully done setting SDK workspace  
+19:23:54 INFO  : Registering command handlers for SDK TCF services
+19:23:54 INFO  : Processing command line option -hwspec F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf.
+19:23:55 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+19:26:52 INFO  : Invoking Bootgen: bootgen -image hello_world.bif -arch zynq -o F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\hello_world\bootimage\BOOT.bin -w on
+19:26:52 INFO  : Overwriting existing bif file F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\hello_world\bootimage\hello_world.bif
+19:26:55 INFO  : Bootgen command execution is done.
+16:22:32 INFO  : Launching XSCT server: xsct.bat -interactive F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\temp_xsdb_launch_script.tcl
+16:22:34 INFO  : XSCT server has started successfully.
+16:22:34 INFO  : Successfully done setting XSCT server connection channel  
+16:22:34 INFO  : Successfully done setting SDK workspace  
+16:22:40 INFO  : Registering command handlers for SDK TCF services
+16:22:40 INFO  : Processing command line option -hwspec F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf.
+16:22:41 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+16:23:51 INFO  : Invoking Bootgen: bootgen -image hello_world.bif -arch zynq -o F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\hello_world\bootimage\BOOT.bin -w on
+16:23:54 INFO  : Bootgen command execution is done.
+16:25:44 INFO  : Invoking Bootgen: bootgen -image hello_world.bif -arch zynq -o F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\hello_world\bootimage\BOOT.bin -w on
+16:25:47 INFO  : Bootgen command execution is done.
+16:40:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584261438475,  Project:1575217359129
+16:40:17 INFO  : Project top_hw_platform_0's source hardware specification located at F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:40:25 INFO  : Copied contents of F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+16:40:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:40:41 INFO  : 
+16:40:43 INFO  : 
+16:40:44 INFO  : Updating hardware inferred compiler options for fsbl.
+16:40:44 INFO  : Updating hardware inferred compiler options for hello_world.
+16:40:44 INFO  : Clearing existing target manager status.
+16:43:09 INFO  : Registering command handlers for SDK TCF services
+16:43:09 INFO  : Launching XSCT server: xsct.bat -interactive F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\temp_xsdb_launch_script.tcl
+16:43:12 INFO  : XSCT server has started successfully.
+16:43:13 INFO  : Successfully done setting XSCT server connection channel  
+16:43:13 INFO  : Processing command line option -hwspec F:/04_Mytask/20191201_Zynq_prj/01_PRJ/20191201_led/prj/led.sdk/top.hdf.
+16:43:13 INFO  : Successfully done setting SDK workspace  
+16:46:49 INFO  : Invoking Bootgen: bootgen -image hello_world.bif -arch zynq -o F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\hello_world\bootimage\BOOT.bin
+16:46:49 INFO  : Creating new bif file F:\04_Mytask\20191201_Zynq_prj\01_PRJ\20191201_led\prj\led.sdk\hello_world\bootimage\hello_world.bif
+16:46:51 INFO  : Bootgen command execution is done.
+18:40:42 INFO  : Launching XSCT server: xsct.bat -interactive F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\temp_xsdb_launch_script.tcl
+18:40:46 INFO  : XSCT server has started successfully.
+18:40:46 INFO  : Successfully done setting XSCT server connection channel  
+18:40:46 INFO  : Successfully done setting SDK workspace  
+18:40:55 INFO  : Registering command handlers for SDK TCF services
+18:40:55 INFO  : Processing command line option -hwspec F:/20_My_Project/00_FPGA/Vivado_prj/20200315_axi_reg/prj/led.sdk/top.hdf.
+18:48:29 INFO  : Registering command handlers for SDK TCF services
+18:48:30 INFO  : Launching XSCT server: xsct.bat -interactive F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\temp_xsdb_launch_script.tcl
+18:48:33 INFO  : XSCT server has started successfully.
+18:48:33 INFO  : Successfully done setting XSCT server connection channel  
+18:48:33 INFO  : Processing command line option -hwspec F:/20_My_Project/00_FPGA/Vivado_prj/20200315_axi_reg/prj/led.sdk/top.hdf.
+18:48:33 INFO  : Successfully done setting SDK workspace  
+19:23:03 INFO  : Invoking Bootgen: bootgen -image hello.bif -arch zynq -o F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\hello\bootimage\BOOT.bin
+19:23:03 INFO  : Creating new bif file F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\hello\bootimage\hello.bif
+19:23:05 INFO  : Bootgen command execution is done.
+19:26:02 INFO  : Invoking Bootgen: bootgen -image hello.bif -arch zynq -o F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\hello\bootimage\BOOT.bin
+19:26:02 INFO  : Creating new bif file F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\hello\bootimage\hello.bif
+19:26:07 INFO  : Bootgen command execution is done.
+19:26:43 INFO  : Invoking Bootgen: bootgen -image hello.bif -arch zynq -o F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\hello\bootimage\BOOT.bin
+19:26:43 INFO  : Creating new bif file F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\hello\bootimage\hello.bif
+19:26:46 INFO  : Bootgen command execution is done.
+19:30:38 INFO  : Invoking Bootgen: bootgen -image hello.bif -arch zynq -o F:\20_My_Project\00_FPGA\Vivado_prj\20200315_axi_reg\prj\led.sdk\hello\bootimage\BOOT.bin -w on
+19:30:42 INFO  : Bootgen command execution is done.
